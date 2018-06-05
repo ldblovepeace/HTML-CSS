@@ -1,0 +1,47 @@
+html{
+    margin: 0 20%;
+}
+
+h4{
+    display: inline;
+    padding-right: 2px;
+}
+
+ul p{
+    display: inline;
+    padding: 0;
+}
+
+ul{
+    padding: 0;
+    width: 100%;
+}
+
+ul li{
+    display: inline;
+    padding-right: 30px;
+}
+
+ol{
+    padding: 0;
+    margin: 0;
+}
+
+ol li{
+    list-style-type:none;
+    padding: 0 0 10px;
+}
+ol p{
+    padding: 0;
+    margin: 0;
+}
+
+.html-header{
+    background-color:cornflowerblue;
+    color: white;
+    float: left;
+    padding:20px 60px;
+    margin: 0 20px;
+    box-sizing: border-box;
+    height: 710px;
+}

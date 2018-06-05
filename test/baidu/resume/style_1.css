@@ -1,0 +1,39 @@
+html{
+    margin: 0 20%;
+    border: solid 1px rgba(128, 128, 128, 0.267);
+}
+
+
+h4{
+    display: inline;
+    padding-right: 2px;
+}
+
+ul p{
+    display: inline;
+    padding: 0;
+}
+
+ul{
+    padding: 0;
+    width: 100%;
+}
+
+ul li{
+    display: inline;
+    padding-right: 30px;
+}
+
+ol{
+    padding: 0;
+    margin: 0;
+}
+
+ol li{
+    list-style-type:none;
+    padding: 0 0 10px;
+}
+ol p{
+    padding: 0;
+    margin: 0;
+}
