@@ -13,6 +13,7 @@ body {
 .info-box {
     width: 450px;
     height: 400px;
+    position: fixed;
     margin: 0 auto;
 }
 
@@ -66,3 +67,11 @@ body {
   .info-box .active-panel {
     z-index: 1;
   }
+
+  .fake-content {
+    background-color: #a60000;
+    color: white;
+    padding: 10px;
+    height: 2000px;
+    margin-left: 470px;
+}
