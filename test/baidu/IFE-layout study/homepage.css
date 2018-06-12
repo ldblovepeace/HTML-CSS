@@ -149,13 +149,16 @@ nav ul li a.active{
 
 .content article{
     padding: 80px;
+    flex: 80px;
     margin: 1rem;
     border: 1px solid gray;
-    background-color: antiquewhite;
+    text-align: center;
 }
 
 footer{
-    flex: 2;
+    flex: 2 8rem;
     background-color: gray;
     color: white;
+    text-align: center;
+    font-size: 1rem;
 }
