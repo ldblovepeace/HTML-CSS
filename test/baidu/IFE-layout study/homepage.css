@@ -17,28 +17,31 @@ header{
     background-color: black;
     color: white;
     flex: 1 8rem;
+    width: 100%;
 }
 
 header div.content{
     width: 96rem;
     margin: 0 auto;
-    position: relative;
+    display: block;
 }
 
 header div.logo{
-    padding: 0;
-    position: absolute;
     font-size: 2rem;
-    width: 10rem;
-    text-align: left;
+    float: left;
+    width: 6rem;
+    display: block;
 }
 
 header div.link-list{
-    padding: 0;
-    position: absolute;
+    float: right;
     width: 20rem;
-    left:76rem;
-    text-align: right;
+    display: block;
+    margin: 0;
+}
+
+header ul{
+    margin: 0;
 }
 
 header ul li{
