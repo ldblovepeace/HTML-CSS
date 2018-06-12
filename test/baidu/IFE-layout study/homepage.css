@@ -10,30 +10,35 @@ html{
 body{
     display: flex;
     flex-direction: column;
-    width: 96rem;
     margin: 0 auto;
 }
 
 header{
     background-color: black;
     color: white;
-    clear: both;
-    flex: 1 4rem;
-    display: flex;
+    flex: 1 8rem;
+}
+
+header div.content{
+    width: 96rem;
+    margin: 0 auto;
     position: relative;
-    align-items: center; 
 }
 
-header .logo{
-    margin-left: 10rem;
+header div.logo{
+    padding: 0;
+    position: absolute;
     font-size: 2rem;
-    flex: 2;
+    width: 10rem;
+    text-align: left;
 }
 
-header .link-list{
-    flex: 1;
-    margin-right: 5rem;
-    align-self: flex-start;
+header div.link-list{
+    padding: 0;
+    position: absolute;
+    width: 20rem;
+    left:76rem;
+    text-align: right;
 }
 
 header ul li{
@@ -67,7 +72,7 @@ header a{
 .banner ul{
     position: absolute;
     top: 16rem;
-    left: 72rem;
+    left: 110rem;
     z-index: 2;
 }
 
@@ -98,7 +103,9 @@ nav{
 }
 
 nav ul{
-    margin: 0;
+    margin: 0 auto;
+    padding: 0;
+    width: 96rem;
 }
 
 nav ul li{
@@ -126,8 +133,25 @@ nav ul li a.active{
 
 
 .content{
-    flex: 4;
-    
+    flex: 4 50rem;
+    display: flex;
+    width: 96rem;
+    flex-flow: column wrap;
+    margin: 0 auto;
+}
+
+.content div{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content article{
+    padding: 80px;
+    margin: 1rem;
+    border: 1px solid gray;
+    background-color: antiquewhite;
 }
 
 footer{
