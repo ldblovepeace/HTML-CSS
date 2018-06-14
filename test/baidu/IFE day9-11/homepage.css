@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: Monteserrat ExtraLight,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header.html_header{
+    width: 100%;
+    height: 99rem;
+    color: white;
+    background-image: url(./images/Background1.png);
+    text-align: center;
+}
+
+header.html_header h1{
+    font-size: 8rem;
+}
+
+.section_1{
+    background-image: url(./images/Background2.png);
+    height: 61rem;
+}
+
+.section_2{
+    background-image: url(./images/Background3.png);
+    height: 80rem;
+}
+
+.section_3{
+    background-image: url(./images/Background4.png);
+    height: 58rem;
+}
+
+.section_4{
+    background-image: url(./images/Background5.png);
+    height: 100rem;
+}
+
+.section_5{
+    background-image: url(./images/Background6.png);
+    height: 108.4rem;
+}
+
+.section_6{
+    background-image: url(./images/Background7.png);
+    height: 70rem;
+}
+
+footer{
+    background-image: url(./images/Background_footer.png);
+    height: 41rem;
+}
