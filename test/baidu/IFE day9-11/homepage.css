@@ -4,19 +4,50 @@
 
 html{
     font-size: 10px;
-    font-family: Monteserrat ExtraLight,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Monteserrat ExtraLight', 'regular', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-header.html_header{
+.html_header{
     width: 100%;
     height: 99rem;
     color: white;
     background-image: url(./images/Background1.png);
     text-align: center;
+    margin: 0 auto;
+}
+
+.html_header div{
+    width: 96.5rem;
+    margin: 0 auto;
+}
+
+.html_header div.description{
+    padding-top: 20rem;
+}
+
+.html_header div.header-input-field{
+    height: 25rem;
+    width: 97rem;
+    border: 1px solid rgb(184, 182, 182);
+    border-radius: 5px;
+    margin-top: 10rem;
+    padding-top: 5rem;
+}
+
+.html_header div.header-input-field h3{
+    font-size: 1.6rem;
+}
+
+.html_header div.header-input-field p{
+    font-size: 1.2rem;
 }
 
 header.html_header h1{
-    font-size: 8rem;
+    font-size: 6.2rem;
+}
+
+header.html_header p{
+    font-size: 2rem;
 }
 
 .section_1{
