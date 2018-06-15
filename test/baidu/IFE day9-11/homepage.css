@@ -89,7 +89,7 @@ header.html_header p{
 
 .section1_title p{
     font-size: 1.4rem;
-    font-family: 'Montserrat';
+    font-family: '[Montserrat]';
 }
 
 .section1_title h1{
@@ -113,8 +113,6 @@ div.section_1 section{
 
 div.section_1 section img{
     float: left;
-    /* overflow: hidden; */
-    /* margin-top: 1rem; */
 }
 
 div.section_1 section p,div.section_1 section h2 {
@@ -134,10 +132,52 @@ div.section_1 section p{
 
 /* section_1 end */
 
+/* section_2 css area */
 .section_2{
     background-image: url(./images/Background3.png);
     height: 80rem;
+    color: white;
+    position: relative;
 }
+
+.section_2 section.text{
+    position: absolute;
+    margin: 18rem 91.5rem 30rem 31.5rem;
+    /* height: 32rem; */
+    width: 37rem;
+}
+
+.section_2 section.text h1{
+    font-size: 3.5rem;
+    font-family: 'Myriad Pro', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section_2 section.text p{
+    font-size: 1.6rem;
+    font-family: 'Myriad Pro';
+    margin-top: 5rem;
+}
+
+.section_2 section.button{
+    position: absolute;
+    margin: 55.5rem 0 18.5rem 31.5rem;
+}
+
+.section_2 button{
+    border: 0.5px solid gray;
+    border-radius: 2px;
+    height: 6rem;
+    width: 24rem;
+    background-color: transparent;
+    color: white;
+    margin: 0 2rem 0 0;
+}
+
+.section_2 button:hover{
+    color: black;
+    background-color: white;
+}
+/* section_2 end */
 
 .section_3{
     background-image: url(./images/Background4.png);
