@@ -260,13 +260,83 @@ div.section_1 section p{
 .leaf_section .photo_discription{
     margin-left: 62rem;
 }
-
 /* section_4 end */
 
+/* section_5 css area */
 .section_5{
     background-image: url(./images/Background6.png);
     height: 108.4rem;
+    /* margin: 0 auto; */
 }
+
+.section_5 header{
+    margin: 9.6rem 45rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.section_5 header p{
+    font-size: 1.6rem;
+}
+
+.section_5 article.content{
+    display: flex;
+    flex-wrap:wrap;
+    width: 97rem;
+    margin: 0 auto;
+}
+
+.section_5 article section{
+    flex: 1 47rem;
+    position: relative;
+}
+
+.crew_pic,
+.crew_pic_hover{
+    /* position: absolute; */
+    height: 34rem;
+    width: 47rem;
+}
+
+.crew_pic_hover{
+    background-image: url(./images/Background-hover.png);
+    text-align: center;
+    color: white;
+    padding-top: 7rem;
+    position: absolute;
+    bottom: 0rem;
+    z-index: 0;
+}
+
+.crew_pic_hover h4{
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.section_5_button_area{
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3rem auto;
+}
+
+.section_5_button_area a:hover{
+    background-color: gray;
+    border-radius: 51px/54px;
+}
+
+.section_5_button_area a{
+    width: 51px;
+    height: 54px;
+}
+
+.crew a:hover{
+    z-index: 0;
+}
+
+
+/* section_5 end */
 
 .section_6{
     background-image: url(./images/Background7.png);
