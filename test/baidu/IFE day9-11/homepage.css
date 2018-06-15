@@ -282,20 +282,24 @@ div.section_1 section p{
 .section_5 article.content{
     display: flex;
     flex-wrap:wrap;
-    width: 97rem;
+    width: 100rem;
     margin: 0 auto;
 }
 
 .section_5 article section{
     flex: 1 47rem;
+    height: 34rem;
+    /* 若未指定section height需要pic_hover往上推2.5px才能重合 */
     position: relative;
+    margin-bottom: 2.5rem;
 }
 
 .crew_pic,
 .crew_pic_hover{
-    /* position: absolute; */
     height: 34rem;
     width: 47rem;
+    padding: 0;
+    margin: 0;
 }
 
 .crew_pic_hover{
@@ -304,8 +308,8 @@ div.section_1 section p{
     color: white;
     padding-top: 7rem;
     position: absolute;
-    bottom: 0rem;
-    z-index: 0;
+    bottom: 0px;
+    z-index: 1;
 }
 
 .crew_pic_hover h4{
@@ -331,8 +335,20 @@ div.section_1 section p{
     height: 54px;
 }
 
-.crew a:hover{
-    z-index: 0;
+.crew_pic{
+    position: relative;
+    z-index: 2;
+    height: 34rem;
+}
+
+.crew_pic:hover{
+    z-index: 1;
+    cursor: url(./images/Hand\ Icon.png), auto;
+}
+/* 这段代码去掉鼠标hover的时候会一直闪烁，因为图层一直变换 */
+.crew_pic_hover:hover{
+    z-index: 2;
+    cursor: url(./images/Hand\ Icon.png), auto;
 }
 
 
