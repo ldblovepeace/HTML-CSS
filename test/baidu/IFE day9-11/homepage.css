@@ -354,10 +354,103 @@ div.section_1 section p{
 
 /* section_5 end */
 
+/* section_6 css area */
 .section_6{
     background-image: url(./images/Background7.png);
     height: 70rem;
 }
+
+.section_6 form{
+    height: 54rem;
+    width: 47rem;
+    float: left;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    margin: 7rem 10rem 7rem 25rem;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 6.6rem;
+}
+
+.section_6 form h1{
+    font-size: 2.5rem;
+    /* border: 1px solid red; */
+    margin: 0;
+}
+
+.section_6 form input{
+    width: 37rem;
+    height: 5rem;
+    border: 0.5px solid gray;
+    border-radius: 2px;
+    padding-left: 1.5rem;
+}
+
+.section_6 input.message{
+    height: 10rem;
+}
+
+.section_6 div.contact{
+    width: 37rem;
+    height: 54rem;
+}
+
+.section_6 button{
+    height: 5rem;
+    width: 37rem;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.section_6 button:hover{
+    background-color: rgb(2, 2, 90);
+    border: none;
+    cursor: pointer;
+}
+
+.section_6 div.contacts{
+    margin-left: 91rem;
+    height: 54rem;
+    width: 47rem;
+    text-align: left;
+    position: relative;
+    padding-top: 10rem;
+}
+
+.section_6 .contacts h1{
+    font-size: 4.2rem;
+    margin: 0;
+}
+
+.contacts p{
+    font-size: 1.6rem;
+}
+
+.icon_list{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
+
+.icon_list div{
+    height: 7rem;
+} 
+
+.icon_list img{
+    float: left;
+}
+
+.icon_list p{
+    margin-left: 5rem;
+    margin-top: 0;
+    font-weight: bold;
+}
+/* section_6 end */
 
 footer{
     background-image: url(./images/Background_footer.png);
