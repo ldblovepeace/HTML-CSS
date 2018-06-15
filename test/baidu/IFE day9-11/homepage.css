@@ -4,9 +4,9 @@
 
 html{
     font-size: 10px;
-    font-family: 'Monteserrat ExtraLight', 'regular', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: '[Monteserrat ExtraLight]', 'regular', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+/* header css area */
 .html_header{
     width: 100%;
     height: 99rem;
@@ -73,11 +73,66 @@ header.html_header h1{
 header.html_header p{
     font-size: 2rem;
 }
+/* header end */
 
+/* section_1 css area */
 .section_1{
     background-image: url(./images/Background2.png);
-    height: 61rem;
+    height: 71rem;
 }
+
+.section1_title{
+    width: 77rem;
+    text-align: center;
+    margin: 8rem auto;
+}
+
+.section1_title p{
+    font-size: 1.4rem;
+    font-family: 'Montserrat';
+}
+
+.section1_title h1{
+    font-size: 4.2rem;
+    font-family: 'Myriad Pro';
+}
+
+div.section_1 article{
+    width: 104rem;
+    height: 40rem;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+div.section_1 section{
+    overflow: hidden;
+    flex: 1 43rem;
+    padding: 1rem;
+}
+
+div.section_1 section img{
+    float: left;
+    /* overflow: hidden; */
+    /* margin-top: 1rem; */
+}
+
+div.section_1 section p,div.section_1 section h2 {
+    margin-left: 6rem;
+}
+
+div.section_1 section h2{
+    font-size: 2rem;
+    font-family: '[Montserrat]';
+}
+
+div.section_1 section p{
+    font-size: 1.6rem;
+    font-family: 'Myriad Pro';
+}
+
+
+/* section_1 end */
 
 .section_2{
     background-image: url(./images/Background3.png);
