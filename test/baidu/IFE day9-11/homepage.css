@@ -33,6 +33,7 @@ html{
 
 .html_header div.header_input_field h3{
     font-size: 1.6rem;
+    margin: 0;
 }
 
 .html_header div.header_input_field p{
@@ -209,10 +210,58 @@ div.section_1 section p{
 }
 /* section_3 end */
 
+/* section_4 css area */
 .section_4{
     background-image: url(./images/Background5.png);
     height: 100rem;
 }
+
+.section_4 article{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.section_4 section{
+    width: 98rem;
+    flex: 1 40rem;
+}
+
+.leaf_section{
+    margin-top: 10rem;
+}
+
+.bird_section{
+    margin-bottom: 10rem;
+}
+
+.leaf_photo{
+    float: left;
+}
+
+.bird_photo{
+    float: right;
+}
+
+.photo_discription{
+    width: 31rem;
+}
+
+.photo_discription h2{
+    font-size: 2rem;
+}
+
+.photo_discription p{
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.leaf_section .photo_discription{
+    margin-left: 62rem;
+}
+
+/* section_4 end */
 
 .section_5{
     background-image: url(./images/Background6.png);
