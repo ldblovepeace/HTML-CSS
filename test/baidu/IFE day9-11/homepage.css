@@ -179,10 +179,35 @@ div.section_1 section p{
 }
 /* section_2 end */
 
+/* section_3 css area */
 .section_3{
     background-image: url(./images/Background4.png);
     height: 58rem;
 }
+
+.section_3 header{
+    margin: 10rem 50rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.section_3 article{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 32rem;
+}
+
+.section_3 section{
+    flex:1 27rem;
+    text-align: center;
+}
+
+.section_3 section p{
+    padding: 4rem;
+    font-size: 1.2rem;
+    margin: 0;
+}
+/* section_3 end */
 
 .section_4{
     background-image: url(./images/Background5.png);
