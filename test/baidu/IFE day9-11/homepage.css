@@ -14,6 +14,7 @@ html{
     background-image: url(./images/Background1.png);
     text-align: center;
     margin: 0 auto;
+    padding: 20rem 0;
 }
 
 .html_header div{
@@ -21,25 +22,48 @@ html{
     margin: 0 auto;
 }
 
-.html_header div.description{
-    padding-top: 20rem;
-}
-
-.html_header div.header-input-field{
+.html_header div.header_input_field{
     height: 25rem;
     width: 97rem;
     border: 1px solid rgb(184, 182, 182);
     border-radius: 5px;
     margin-top: 10rem;
-    padding-top: 5rem;
+    padding: 5rem 0;
 }
 
-.html_header div.header-input-field h3{
+.html_header div.header_input_field h3{
     font-size: 1.6rem;
 }
 
-.html_header div.header-input-field p{
+.html_header div.header_input_field p{
     font-size: 1.2rem;
+}
+
+.create_account_form {
+    margin: 3rem 0;
+}
+
+.create_account_form input{
+    height: 5rem;
+    width: 29.2rem;
+    background: transparent;
+    color: white;
+    border: 0.5px solid gray;
+    border-radius: 2px;
+    padding: 1rem;
+    margin: 0 1rem;
+}
+
+.create_account_form button{
+    height: 5rem;
+    width: 12.5rem;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 0.5px solid gray;
+}
+
+.create_account_form button:hover{
+    background-color: aliceblue;
 }
 
 header.html_header h1{
