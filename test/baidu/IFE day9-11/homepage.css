@@ -6,7 +6,7 @@ html{
     font-size: 10px;
     font-family: '[Monteserrat ExtraLight]', 'regular', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-/* header css area */
+/* header css area Hello World*/
 .html_header{
     width: 100%;
     height: 99rem;
@@ -76,7 +76,7 @@ header.html_header p{
 }
 /* header end */
 
-/* section_1 css area */
+/* section_1 css area |boatloads of awesome*/
 .section_1{
     background-image: url(./images/Background2.png);
     height: 71rem;
@@ -133,7 +133,7 @@ div.section_1 section p{
 
 /* section_1 end */
 
-/* section_2 css area */
+/* section_2 css area |supportive policies*/
 .section_2{
     background-image: url(./images/Background3.png);
     height: 80rem;
@@ -180,7 +180,7 @@ div.section_1 section p{
 }
 /* section_2 end */
 
-/* section_3 css area */
+/* section_3 css area |awesome products*/
 .section_3{
     background-image: url(./images/Background4.png);
     height: 58rem;
@@ -210,7 +210,7 @@ div.section_1 section p{
 }
 /* section_3 end */
 
-/* section_4 css area */
+/* section_4 css area |pictures*/
 .section_4{
     background-image: url(./images/Background5.png);
     height: 100rem;
@@ -262,7 +262,7 @@ div.section_1 section p{
 }
 /* section_4 end */
 
-/* section_5 css area */
+/* section_5 css area |awesome crew*/
 .section_5{
     background-image: url(./images/Background6.png);
     height: 108.4rem;
@@ -354,7 +354,7 @@ div.section_1 section p{
 
 /* section_5 end */
 
-/* section_6 css area */
+/* section_6 css area |Write us*/
 .section_6{
     background-image: url(./images/Background7.png);
     height: 70rem;
