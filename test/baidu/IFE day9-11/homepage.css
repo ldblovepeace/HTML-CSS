@@ -373,6 +373,7 @@ div.section_1 section p{
     align-items: center;
     justify-content: space-around;
     padding-bottom: 6.6rem;
+    padding-top: 3rem;
 }
 
 .section_6 form h1{
@@ -452,7 +453,54 @@ div.section_1 section p{
 }
 /* section_6 end */
 
+/* footer css area */
 footer{
     background-image: url(./images/Background_footer.png);
     height: 41rem;
+    display: flex;
+    color: white;
+    padding: 8rem 20rem;
+    line-height: 4rem;
 }
+
+footer a{
+    color: rgb(172, 171, 171);
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+footer h1{
+    font-size: 1.4rem;
+}
+
+.learn_more{
+    flex: 1 26rem;
+}
+
+.about_us{
+    flex: 1 26rem;
+}
+
+.support{
+    flex: 1 26rem;
+}
+
+.enjoy_life{
+    flex: 1 26rem;
+}
+
+.enjoy_life section{
+    font-size: 1.6rem;
+    color: rgb(172, 171, 171);
+    width: 26rem;
+}
+
+.icon_area{
+    padding-right: 4rem;
+    display: flex;
+}
+
+.icon_area a{
+    flex: 1;
+}
+/* footer end */
