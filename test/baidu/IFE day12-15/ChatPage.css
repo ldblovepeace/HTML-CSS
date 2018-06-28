@@ -1,0 +1,88 @@
+html{
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    /* padding: 0; */
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* primary menu css area */
+.Primary{
+    position: absolute;
+    width: 10rem;
+    height: 100%;
+    background-color:#1d2531; 
+    top: 0;
+}
+
+.Primary a{
+    display: block;
+    height: 6rem;
+    padding: 0 2rem;
+    margin: 2rem 0;
+}
+
+.Primary footer{
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 5rem;
+    margin: 0 2rem;
+}
+
+.Primary footer a{
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+.Primary .active{
+    background-image: url(./images/Primary/Active\ Highlight.png);
+    background-repeat: no-repeat;
+    background-position:0 50%; 
+}
+/* primary menu css end */
+
+/* secondary menu css area */
+
+.Secondary{
+    position: absolute;
+    width: 25rem;
+    height: 100%;
+    background-color: #242e3d;
+    top: 0;
+    left: 10rem;
+    color: #b7c0cd;
+}
+
+.Secondary a{
+    text-decoration: none;
+    color: #b7c0cd;
+}
+
+
+/* secondary menu css end */
+
+/* main content css area */
+
+.content{
+    position: absolute;
+    left: 35rem;
+    width: 100%-35rem;
+    height: 100%;
+    overflow: auto;
+}
+
+/* main content css end */
