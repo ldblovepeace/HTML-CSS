@@ -16,6 +16,12 @@ body{
     padding: 0;
 }
 
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 /* primary menu css area */
 .Primary{
     position: absolute;
@@ -61,18 +67,146 @@ body{
     position: absolute;
     width: 25rem;
     height: 100%;
-    background-color: #242e3d;
+    background-color: #222c3c;
     top: 0;
     left: 10rem;
     color: #b7c0cd;
+    font-size: 1.4rem;
+    /* padding: 3rem; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* .Secondary li:hover{
+    background-color: #1d2531;
+} */
+
+.Secondary section{
+    margin: 3rem 0; 
+    padding-bottom: 2rem;
 }
 
 .Secondary a{
     text-decoration: none;
     color: #b7c0cd;
+    line-height: 3rem;
+    width: inherit;
+    display: inline-block;
+    width: 100%;
+    /* margin-left: -3rem; */
+    padding: 0 3rem;
+}
+
+.Secondary-header{
+    /* position: relative; */
+    padding:0 3rem;
+}
+
+.Secondary h1{
+    color: #3d4858;
+    font-size: 1.2rem;
+}
+
+.Secondary a.setting-icon{
+    float: right;
+    line-height: 0;
+    width: 1.6rem;
+    margin: 0;
+    padding: 0;
+}
+
+.Secondary a:hover{
+    background-color: #1d2531;
+}
+
+.menu,
+.your-product{
+    border-bottom: solid 1px #2a3547;
+}
+
+.your-product a > img{
+    padding-right: 5px;
 }
 
 
+.Secondary a.active{
+    color: #ffffff;
+    font-weight: bold;
+    background-image: url(./images/Primary/Active\ Highlight.png);
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    padding-left: -3rem;
+}
+
+.notification{
+    float: right;
+    position: relative;
+    /* line-height: 3rem; */
+    margin-top: 5px;
+}
+
+.notification span.inform-data{
+    width: 3rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: #1b93ed;
+    color: white;
+    display: block;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.notification span.alarm{
+    background-image: linear-gradient(to bottom, #dd5038 ,#cd2a0d);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    display: block;
+    color: white;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.Secondary footer{
+    margin: 3rem;
+    position: fixed;
+    bottom: 0;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 19rem;
+}
+
+
+.cost{
+    display: flex;
+    position: relative;
+    right: 0;
+}
+
+.target-cost{
+    font-weight: 0;
+}
+
+.progress-bar{
+    position: fixed;
+    height: 5px;
+    width: 19rem;
+    bottom: 3rem;
+    background-color: #2d3848;
+    border-radius: 2.5px;
+}
+
+.done{
+    position: absolute;
+    height: 5px;
+    /* width 通过字段比值确定 */
+    width: 18.125%;
+    background-color: #937de4;
+    border-radius: 2.5px;
+    /* 进度颜色渐变 */
+    background-image: linear-gradient(to right, #7f5ce6 ,#9c8ee3);
+}
 /* secondary menu css end */
 
 /* main content css area */
