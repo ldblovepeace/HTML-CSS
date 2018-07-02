@@ -76,9 +76,6 @@ ul{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* .Secondary li:hover{
-    background-color: #1d2531;
-} */
 
 .Secondary section{
     margin: 3rem 0; 
@@ -202,7 +199,6 @@ ul{
     height: 5px;
     /* width 通过字段比值确定 */
     width: 18.125%;
-    background-color: #937de4;
     border-radius: 2.5px;
     /* 进度颜色渐变 */
     background-image: linear-gradient(to right, #7f5ce6 ,#9c8ee3);
@@ -218,5 +214,249 @@ ul{
     height: 100%;
     overflow: auto;
 }
+
+.content > header{
+    position: fixed;
+    height: 5rem;
+    margin: 1rem 2rem;
+    z-index: 1;
+    background-color: white;
+}
+
+.content > header div.user-profile{
+    position: fixed;
+    right: 2rem;
+    display: flex;
+    width: 18rem;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.user-profile img.face{
+    float: left;
+}
+
+div.user-profile img.dropdown{
+    float: right;
+}
+
+div.user-profile .name{
+    font-size: 1.6rem;
+    color: #2399f1;
+    margin: 0;
+}
+
+div.user-profile .role{
+    font-size: 1.4rem;
+    color: gray;
+    margin: 0;
+}
+
+.content header h1{
+    font-size: 2.4rem;
+    line-height: 5rem;
+    width: 10rem;
+    margin: 0;
+    float: left;
+}
+/* content header end */
+
+/* chat list css start */
+
+section.chats{
+    position: absolute;
+    margin-top: 7rem;
+    width: 40rem;
+    border-top: 1px solid #e6e9ec;
+    border-right: 1px solid #e6e9ec;
+    overflow: auto;
+}
+
+.search-box{
+    height: 7rem;
+    border-bottom: 1px solid #e6e9ec;
+    padding: 1.6rem 3rem;
+}
+
+.search-box input{
+    width: 34rem;
+    height: 3rem;
+    padding-left: 1rem;
+    border: 0.5px solid #e6e9ec;
+    border-radius: 3px;
+    position: relative;
+}
+
+.search-box button{
+    position: absolute;
+    right: 3rem;
+    top: 2.35rem;
+    background-color: transparent;
+    border: transparent;
+}
+
+.search-box button:hover{
+    cursor: pointer;
+}
+
+.chat-list{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+}
+
+.chat-list li{
+    height: 13rem;
+    width: 100%;
+    padding: 2rem 3rem;
+    border-bottom:  1px solid #e6e9ec;
+    display: block;
+    position: relative;
+}
+
+.chat-list li.active{
+    border-left: 4px solid #2399f1;
+}
+
+.chat-list li:hover{
+    border-left: 4px solid gray;
+}
+
+.chat-profile{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 4.6rem;
+}
+
+.chat-profile div{
+    width: 35rem;
+    padding-left: 2rem;
+}
+
+.chat-profile div h2{
+    font-size: 1.6rem;
+    margin: 0;
+    width: 15rem;
+}
+
+.last-chat-date{
+    color: #a1adbc;
+    font-size: 1.4rem;
+}
+
+.company{
+    color: #dcdcdc;
+    font-size: 1.4rem;
+    margin: 0;
+}
+.recent-chat{
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 1rem;
+}
+/* chat list end */
+
+/* active chat css area */
+
+.active-chat{
+    position: relative;
+    margin-left: 40rem;
+    margin-top: 7rem;
+    width: 100%-75rem;
+    border-top: 1px solid #e6e9ec;
+}
+
+.chat-header{
+    position: relative;
+    height: 7rem;
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid #e6e9ec;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.chat-header h2{
+    font-size: 1.8rem;
+    margin: 0;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.chat-header .button-area{
+    display: flex;
+    width: 30rem;
+    height: 3rem;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 1rem;
+}
+
+.chat-page-selection{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex: 16rem;
+}
+
+.chat-page-selection p{
+    font-size: 1.4rem;
+    color: #b0b9c8;
+    margin: 0;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+.chat-tools-list a{
+    display: block;
+    height: 3rem;
+    width: 3.5rem;
+    padding-top: 0.3rem;
+}
+
+.chat-tools-list li,
+.chat-page-selection ul li{
+    display: inline-block;
+    width: 3.5rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.add-user,
+.upload,
+.left-arrow{
+    border-right: 1px solid #e6e9ec;
+}
+
+.chat-page-selection ul,
+.chat-tools-list{
+    border: 1px solid #e6e9ec;
+    border-radius: 2px;
+    background-image: linear-gradient(to bottom, white, #f2f4f7) 
+}
+
+.chat-page-selection{
+    margin-left: 2rem;
+    border-left: 1px solid #e6e9ec;
+}
+
+.left-arrow a,
+.right-arrow a{
+    display: block;
+    width: 3.5rem;
+    height: 3rem;
+}
+
+.chat-header a:hover{
+    background-color: #f2f4f7;
+}
+
+/* active chat end */
 
 /* main content css end */

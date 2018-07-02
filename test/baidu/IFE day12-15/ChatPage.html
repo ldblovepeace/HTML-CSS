@@ -220,10 +220,14 @@
         <header>
             <h1>Messages</h1>
             <div class="user-profile">
-                <img src="./images/Profile/Face.png" alt="">
-                <h2 class="name">Jordan J.</h2>
-                <p class="role">Administrator</p>
-                <img src="./images/Profile/dropdown.png" alt="">
+                <img src="./images/Profile/Face.png" alt="" class="face">
+                <div>
+                    <h2 class="name">Jordan J.</h2>
+                    <p class="role">Administrator</p>
+                </div>
+                <a href="#">
+                    <img src="./images/Profile/dropdown.png" alt="" class="dropdown">
+                </a>
             </div>
         </header>
 
@@ -240,12 +244,15 @@
 
 
             <ul class="chat-list">
-                <li class="active-chat">
+                <li class="active">
                     <div class="chat-profile">
                         <img src="./images/Chat/tools/Bessie Berry.png" alt="">
-                        <img src="./images/Chat/Status.png" alt="">
-                        <h2>Bessie Berry</h2>
-                        <p class="company">Twitter</p>
+                        <div>
+                            <h2>
+                                <img src="./images/Chat/Status.png" alt=""> Bessie Berry
+                            </h2>
+                            <p class="company">Twitter</p>
+                        </div>
                         <p class="last-chat-date">3m</p>
                     </div>
                     <div class="recent-chat">
@@ -257,9 +264,12 @@
                 <li>
                     <div class="chat-profile">
                         <img src="./images/Chat/tools/Victor Weber.png" alt="">
-                        <img src="./images/Chat/Status.png" alt="">
-                        <h2>Victor Weber</h2>
-                        <p class="company">Adobe</p>
+                        <div>
+                            <h2>
+                                <img src="./images/Chat/Status.png" alt=""> Victor Weber
+                            </h2>
+                            <p class="company">Adobe</p>
+                        </div>
                         <p class="last-chat-date">8m</p>
                     </div>
                     <div class="recent-chat">
@@ -271,9 +281,12 @@
                 <li>
                     <div class="chat-profile">
                         <img src="./images/Chat/tools/Dustin Benson.png" alt="">
-                        <img src="./images/Chat/Status.png" alt="">
-                        <h2>Dustin Benson</h2>
-                        <p class="company">Facebook</p>
+                        <div>
+                            <h2>
+                                <img src="./images/Chat/Status.png" alt=""> Dustin Benson
+                            </h2>
+                            <p class="company">Facebook</p>
+                        </div>
                         <p class="last-chat-date">Yesterday</p>
                     </div>
                     <div class="recent-chat">
@@ -285,9 +298,12 @@
                 <li>
                     <div class="chat-profile">
                         <img src="./images/Chat/tools/Jack Mason.png" alt="">
-                        <img src="./images/Chat/Status.png" alt="">
-                        <h2>Jack Mason</h2>
-                        <p class="company">Yahoo</p>
+                        <div>
+                            <h2>
+                                <img src="./images/Chat/Status.png" alt=""> Jack Mason
+                            </h2>
+                            <p class="company">Yahoo</p>
+                        </div>
                         <p class="last-chat-date">Yesterday</p>
                     </div>
                     <div class="recent-chat">
@@ -299,10 +315,13 @@
                 <li>
                     <div class="chat-profile">
                         <img src="./images/Chat/tools/Stephen Shelton.png" alt="">
-                        <img src="./images/Chat/Status.png" alt="">
-                        <h2>Stephen Shelton</h2>
-                        <p class="company">Snapchat</p>
-                        <p class="last-chat-date">13 Jun</p>
+                        <div>
+                            <h2>
+                                <img src="./images/Chat/Status.png" alt=""> Stephen Shelton
+                            </h2>
+                            <p class="company">Snapchat</p>
+                        </div>
+                        <p class="last-chat-date">13&nbsp;Jun</p>
                     </div>
                     <div class="recent-chat">
                         <p>
@@ -313,10 +332,13 @@
                 <li>
                     <div class="chat-profile">
                         <img src="./images/Chat/tools/Sally Willis.png" alt="">
-                        <img src="./images/Chat/Status.png" alt="">
-                        <h2>Sally Willis</h2>
-                        <p class="company">Twitter</p>
-                        <p class="last-chat-date">12 Jun</p>
+                        <div>
+                            <h2>
+                                <img src="./images/Chat/Status.png" alt=""> Sally Willis
+                            </h2>
+                            <p class="company">Twitter</p>
+                        </div>
+                        <p class="last-chat-date">12&nbsp;Jun</p>
                     </div>
                     <div class="recent-chat">
                         <p>
@@ -328,52 +350,53 @@
 
         </section>
 
-        <section class="main-panel">
+        <section class="active-chat">
             <header class="chat-header">
-                <h2>Bessie Berry</h2>
-                <img src="./images/Chat/Status.png" alt="">
+                <h2>
+                    Bessie Berry
+                    <img src="./images/Chat/Status.png" alt="">
+                </h2>
 
-
-                <ul class="chat-tools-list">
-                    <li class="add-user">
-                        <a href="#">
-                            <img src="./images/Chat/tools/User icon.png" alt="">
-                        </a>
-                    </li>
-                    <li class="Upload">
-                        <a href="#">
-                            <img src="./images/Chat/tools/Upload icon.png" alt="">
-                        </a>
-                    </li>
-                    <li class="delete">
-                        <img src="./images/Chat/tools/Trash icon.png" alt="">
-                    </li>
-                </ul>
-
-                <div class="chat-page-selection">
-                    <p>
-                        1 of 28
-                    </p>
-
-                    <ul>
-                        <li>
+                <div class="button-area">
+                    <ul class="chat-tools-list">
+                        <li class="add-user">
                             <a href="#">
-                                <img src="./images/Chat/Arrow left.png" alt="">
+                                <img src="./images/Chat/tools/User icon.png" alt="">
                             </a>
-                        </li>
-
-                        <li>
+                        </li><li class="upload">
                             <a href="#">
-                                <img src="./images/Chat/Arrow right.png" alt="">
+                                <img src="./images/Chat/tools/Upload icon.png" alt="">
+                            </a>
+                        </li><li class="delete">
+                            <a href="#">
+                                <img src="./images/Chat/tools/Trash icon.png" alt="">
                             </a>
                         </li>
                     </ul>
+
+                    <div class="chat-page-selection">
+                        <p>
+                            1 of 28
+                        </p>
+
+                        <ul>
+                            <li class="left-arrow">
+                                <a href="#">
+                                    <img src="./images/Chat/Arrow left.png" alt="">
+                                </a>
+                            </li><li class="right-arrow">
+                                <a href="#">
+                                    <img src="./images/Chat/Arrow right.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+
             </header>
 
             <div class="chat-content">
                 <ul class="dialog">
-
                     <div class="old-message">
                         <li>
                             <div class="portrait">
