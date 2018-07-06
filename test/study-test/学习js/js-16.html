@@ -9,14 +9,14 @@
 <body>
     <input id="first-number" type="number" value="0" placeholder="第一个数字">
     <input id="second-number" type="number" value="0" placeholder="第二个数字">
-    <button id="add-btn" onclick="myfunction(this)">加</button>
-    <button id="minus-btn" onclick="myfunction(this)">减</button>
-    <button id="times-btn" onclick="myfunction(this)">乘</button>
-    <button id="divide-btn" onclick="myfunction(this)">除</button>
+    <button id="add-btn">加</button>
+    <button id="minus-btn">减</button>
+    <button id="times-btn">乘</button>
+    <button id="divide-btn">除</button>
     <p id="result">运算结果</p>
     <script>
         var result = document.getElementById('result');
-        // var button = document.querySelectorAll("button");
+        var button = document.querySelectorAll("button");
 
         function myfunction(button) {
             var first = document.getElementById('first-number').value;
@@ -40,7 +40,12 @@
             }
             console.log("run");
         }
-
+        
+        for(var i = 0; i<button.length; i++){
+            button[i].onclick = function(){
+                myfunction(this);
+            }
+        }
 
 
         // document.getElementById('add-btn').onclick = function() {
