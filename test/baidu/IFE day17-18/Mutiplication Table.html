@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mutiplication Table</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h1>下面将会生成九九乘法表</h1>
+    <div id="here">
+
+    </div>
+</body>
+<script>
+    var i = 1, j = 1;
+    var result;
+    // document.createElement("table");
+
+    var h = ['<table>']
+
+    h.push('<tr><th>*</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th></tr>');
+
+    for(;i<=9;i++){
+        h.push('<tr><td>' + i + '*</td>');
+        for(;j<=9;j++){
+            result = i * j;
+            console.log(result);
+            h.push('<td>' + result + '</td>');
+        }
+        h.push('</td></tr>');
+        j = 1;
+    }
+
+    h.push('</table>');
+
+    document.getElementById('here').innerHTML = h.join('');
+</script>
+<style>
+    table,
+    th,
+    td{
+        border: solid black 1px;
+    }
+
+    table{
+        text-align: center;
+        border-collapse: collapse;
+    }
+
+    td,
+    tr
+    {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    tr:nth-of-type(2n+1){
+        background-color: rgb(201, 228, 230);
+    }
+
+    td:nth-of-type(1),
+    tr:nth-of-type(1){
+        background-color: gray;
+        color: white;
+    }
+</style>
+</html>

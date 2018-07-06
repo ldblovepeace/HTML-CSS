@@ -7,7 +7,6 @@
     <title>Resume for study</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style_3.css" />
-    <script src="main.js"></script>
 </head>
 
 <body>
@@ -102,5 +101,21 @@
     </article>
 
 </body>
+
+<script>
+
+    var time = new Date().getHours();
+    console.log(time);
+
+
+    if (time < 5) alert("you need to sleep");
+    else if (time > 5 && time <= 10) alert("Good Morning!");
+    else if (time > 10 && time <= 13) alert("Good noon!");
+    else if (time > 13 && time <= 18) alert("Good afternoon!");
+    else if (time > 18) alert("Good night!");
+    else alert("Hello!");
+
+
+</script>
 
 </html>

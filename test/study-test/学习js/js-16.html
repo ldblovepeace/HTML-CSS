@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>IFE ECMAScript</title>
+</head>
+
+<body>
+    <input id="first-number" type="number" value="0" placeholder="第一个数字">
+    <input id="second-number" type="number" value="0" placeholder="第二个数字">
+    <button id="add-btn" onclick="myfunction(this)">加</button>
+    <button id="minus-btn" onclick="myfunction(this)">减</button>
+    <button id="times-btn" onclick="myfunction(this)">乘</button>
+    <button id="divide-btn" onclick="myfunction(this)">除</button>
+    <p id="result">运算结果</p>
+    <script>
+        var result = document.getElementById('result');
+        // var button = document.querySelectorAll("button");
+
+        function myfunction(button) {
+            var first = document.getElementById('first-number').value;
+            var second = document.getElementById('second-number').value;
+            var id = button.id;
+            if (id == "add-btn") {
+                var c = parseInt(first) + parseInt(second);
+                result.innerHTML = "运算结果：" + c;
+            }
+            else if (id == "minus-btn") {
+                var c = parseInt(first) - parseInt(second);
+                result.innerHTML = "运算结果：" + c;
+            }
+            else if (id == "times-btn") {
+                var c = parseInt(first) * parseInt(second);
+                result.innerHTML = "运算结果：" + c;
+            }
+            else if (id == "divide-btn") {
+                var c = parseInt(first) / parseInt(second);
+                result.innerHTML = "运算结果：" + c;
+            }
+            console.log("run");
+        }
+
+
+
+        // document.getElementById('add-btn').onclick = function() {
+        //     var first = document.getElementById('first-number').value;
+        //     var second = document.getElementById('second-number').value;
+        //     var c = parseInt(first) + parseInt(second);
+        //     result.innerHTML= "运算结果：" + c;
+        // }
+
+        // document.getElementById('minus-btn').onclick = function() {
+        //     var first = document.getElementById('first-number').value;
+        //     var second = document.getElementById('second-number').value;
+        //     var c = parseInt(first) - parseInt(second);
+        //     result.innerHTML = "运算结果："+ c;
+        // }
+
+        // document.getElementById('times-btn').onclick = function() {
+        //     var first = document.getElementById('first-number').value;
+        //     var second = document.getElementById('second-number').value;
+        //     var c = parseInt(first) * parseInt(second);
+        //     result.innerHTML = "运算结果：" + c;
+        // }
+
+        // document.getElementById('divide-btn').onclick = function() {
+        //     var first = document.getElementById('first-number').value;
+        //     var second = document.getElementById('second-number').value;
+        //     var c = parseInt(first) / parseInt(second);
+        //     result.innerHTML = "运算结果：" + c;
+        // }
+    </script>
+</body>
+
+</html>
